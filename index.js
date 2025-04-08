@@ -3,7 +3,7 @@ const timerHours = document.getElementById('hours')
 const timerMinutes = document.getElementById('minutes')
 const timerSeconds = document.getElementById('seconds')
 
-const targetDate = new Date("April 9 2025 00:00:00").getTime()
+const targetDate = new Date("April 10 2025 00:00:00").getTime()
 
 function timeCount(){
     const currentDate = new Date().getTime()
